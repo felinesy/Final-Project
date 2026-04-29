@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4352cb0-5c5c-4b3f-b543-890518c904dd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/animals" beforeDir="false" />
-    </list>
+    <list default="true" id="e4352cb0-5c5c-4b3f-b543-890518c904dd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +34,9 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3D0rMnZbyjUX7VEWQW2TqqffYJY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,6 +55,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/johnc/IdeaProjects/Final_Project/src/fonts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +65,27 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\johnc\IdeaProjects\Final_Project\src\fonts" />
+      <recent name="C:\Users\johnc\IdeaProjects\Final_Project\src\music" />
+      <recent name="C:\Users\johnc\IdeaProjects\Final_Project\src\animals" />
+      <recent name="C:\Users\johnc\IdeaProjects\Final_Project\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Final_Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Final_Project" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e4352cb0-5c5c-4b3f-b543-890518c904dd" name="Changes" comment="" />

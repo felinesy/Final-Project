@@ -1,1 +1,29 @@
+ackage data;
 
+import Main.GamePanel;
+import entity.Entity;
+import object.Obj_BluePotion;
+import object.Obj_Key;
+import object.Obj_Lantern;
+import object.Obj_RedPotion;
+
+import java.io.*;
+
+public class SaveLoad {
+    GamePanel gp;
+
+    public SaveLoad(GamePanel gp) {
+        this.gp = gp;
+    }
+
+    public Entity getObject(String itemName){ // for inventory ???
+        Entity obj = null;
+
+        switch(itemName){
+            case "Health Potion": obj = new Obj_BluePotion(gp); break;
+            case "Mana Potion": obj = new Obj_RedPotion(gp); break;
+            case "Key": obj = new Obj_Key(gp); break;
+            case "Lantern": obj = new Obj_Lantern(gp); break;
+        }
+        return obj;
+    }

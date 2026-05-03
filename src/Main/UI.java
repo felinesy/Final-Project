@@ -200,8 +200,8 @@ public class UI {
         g2d.fillRect(0, 0, gp.screenWidth, gp.screenHeight);
 
         g2.setFont(customFont.deriveFont(Font.BOLD, 40F));
-        String characterName = gp.chosenCharacter == 0 ? "ELDEN" :
-                gp.chosenCharacter == 1 ? "BRIANNA" : "ORION";
+        String characterName = gp.chosenCharacter == 0 ? "ZYRIL" :
+                gp.chosenCharacter == 1 ? "FELINE" : "CHARLES";
         String title = "WELCOME, " + characterName + "!";
         int x = getXforCenteredText(title);
         int y = gp.tileSize * 2;
@@ -576,7 +576,7 @@ public class UI {
 
         g2.setFont(new Font("SansSerif", Font.BOLD, 26)); // Set a clear font
 
-        text = "E l d e n";
+        text = "Z y r i l";
         g2.setColor(Color.white);
         if (commandNum == 0) {
             g2.setColor(Color.GREEN);
@@ -585,7 +585,7 @@ public class UI {
         g2.drawString(text, 4 * gp.tileSize, 8 * gp.tileSize);
 
 
-        text = "B r i a n a";
+        text = "F e l i n e";
         g2.setColor(Color.white);
         if (commandNum == 1) {
             g2.setColor(Color.GREEN);
@@ -593,7 +593,7 @@ public class UI {
         }
         g2.drawString(text, 8 * gp.tileSize, 8 * gp.tileSize);
 
-        text = "O r i o n";
+        text = "C h a r l e s";
         g2.setColor(Color.white);
         if (commandNum == 2) {
             g2.setColor(Color.GREEN);
